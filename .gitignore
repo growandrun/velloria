@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local dev
+.claude/
+node_modules/
+.vercel/
+.env
+.env.local
+
+# Originals kept locally (PNG masters; the WebP files in assets/products/ are what the site uses)
+assets/products/*.png
